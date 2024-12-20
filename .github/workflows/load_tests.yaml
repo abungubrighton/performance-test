@@ -26,3 +26,6 @@ jobs:
 
     - name: Run Python script
       run: python run_tests.py
+
+    - name: Run load test validation script
+      run: python validation_script.py
